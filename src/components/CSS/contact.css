@@ -1,0 +1,97 @@
+.contact *{   margin: 0 ;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+.contact{
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+  background-image: url('../photos/bg1.png');
+  background-size : cover;
+  position:relative;
+  
+}
+.navbar{
+    border-bottom:3px solid #ffffff;
+    height: 65px;
+    padding: 20px;
+    margin: 0px 40px 0px 40px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.navbar a{
+    text-decoration: none;
+    margin-right: 40px;
+    color: #ffffff;
+}
+.heading{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight:bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.row{
+    margin-left: 24%;
+    margin-bottom: 50px !important;
+    width: 55%;
+    height: 450px;
+    background-color: #f5f7b1;
+    padding: 30px 20px 20px 20px;
+    border-radius: 15px;
+}
+.contact-column{
+    float: left;
+    width:50%;
+    padding: 20px;
+    font-size: 20px;
+}
+.contact-column p{
+    color: #000;
+    font-size: large;
+    margin-bottom: 15px;
+}
+.google-map {
+    padding-bottom: 50%;
+    position: relative;
+  }
+  
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+.contact-input,.contact-txtar{
+    font-size: 20px;
+    margin-bottom: 16px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.contact-input{
+    width: 350px;
+    height: 50px;
+}
+.contact-btn{
+    position: fixed;
+    left:53%;
+    width: 350px;
+    font-size: 18px;
+    background: #7e1010 ;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    padding: 8px 50px;
+    border-radius: 30px;
+    transition: 0.5s;
+    
+  }
+.contact-btn:hover{
+    background: #000;
+    border: 1px solid #4070f4;
+  }

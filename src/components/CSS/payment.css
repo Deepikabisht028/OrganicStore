@@ -1,0 +1,26 @@
+.payment{
+    background-color: rgb(213, 217, 217);
+    overflow-x: hidden;
+    height: 100vh;
+    width: 100%;
+    background: cover;
+}
+
+.payment-container{
+    background-color: rgb(255, 255, 255);
+    font-size: large;
+    display: block;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    padding: 20px;
+    width: 400px;
+    height:400px;
+}
+.box-msg{
+    font-size: 50px;
+    font-weight: bold;
+    color: red;
+}

@@ -1,0 +1,69 @@
+.feed{
+    background-color: rgb(213, 217, 217);
+    overflow-x: hidden;
+    height: 100vh;
+  width: 100%;
+    background: cover;
+}
+.feed-container img{
+    padding-top:0;
+    margin-top:0;
+    width: 80px;
+    height: 80px;
+}
+#rmsg{
+    text-align: center;
+    margin-left: 45px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    color: rgb(108, 14, 14);
+}
+.Feed-form,.Feed-form2{
+    font: large 'Times New Roman', Times, serif;;
+    color: rgb(130, 19, 19);
+    padding: 5px;
+    margin-bottom: 5px;
+    border:1px solid rgb(134, 21, 21);
+    width: 300px;
+    border-radius: 5px;
+}
+.Feed-form{
+    height: 40px;
+}
+.feed-container{
+    background-color: rgb(255, 255, 255);
+    font-size: large;
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    padding: 20px;
+    width: 400px;
+    height:610px;
+}
+.feed-container p{
+    margin-top: 5px;
+    color:rgb(133, 16, 16);
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+.feed-btn{
+    font-family:'Times New Roman', Times, serif ;
+    width: 150px;
+    font-weight:bold ;
+    height:40px;
+    border: 2px solid rgb(133, 16, 16);
+    background-color: white;
+    border-radius: 20px;
+    transition-duration: 0.4s;
+    font-size:medium;
+    color: rgb(133, 16, 16); 
+    margin-bottom: 5px;                 
+}
+.feed-btn:hover{
+    background-color: rgb(133, 16, 16);
+    color: white;
+}

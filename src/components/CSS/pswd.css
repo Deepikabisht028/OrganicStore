@@ -1,0 +1,49 @@
+.pswd{
+    background-color: rgb(213, 217, 217);
+    overflow-x: hidden;
+    height: 100vh;
+    width: 100%;
+    background: cover;
+}
+.pswd-container{
+    background-color: rgb(255, 255, 255);
+    font-size: large;
+    display: block;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    padding-top: 40px;
+    width: 400px;
+    height:370px;
+}
+.pswd-h{
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: red;
+}
+.pswd-p{
+    font-size:12px;
+    color: #c81b1b;
+
+}
+.pswd-ptrue{
+    font-size:20px;
+    color: #26602f;
+
+}
+.pswd-button {
+    background-color: #000000;
+    width: 258px;
+    color: white;
+    border: none;
+    font-size: larger;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+.pswd-button:hover{
+    background-color: #c81b1b;
+}
