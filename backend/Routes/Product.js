@@ -18,7 +18,6 @@ router.get("/product",async (req, res) => {
     let query = Product.find({});
     try {
       const docs = await query.exec();
-      console.log(docs);
       res.status(200).json({success:true,docs:docs});
     } catch (err) {
       res.status(400).json({success:false,docs:err});
@@ -29,7 +28,6 @@ router.get("/product",async (req, res) => {
 router.get("/product/:category",async (req, res) => {
     try {
       const product = await Product.find({category:req.params['category']});
-      console.log(product);
       res.status(200).json(product);
     } catch (err) {
       res.status(400).json(err);
